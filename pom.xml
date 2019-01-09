@@ -7,15 +7,26 @@
     <groupId>com.jaswine</groupId>
     <artifactId>commons-web</artifactId>
     <version>${commons.version}</version>
-
+    <name>commons-web</name>
     <description>
         Java Web项目中常常使用的基本类。基于JSR-340(Servlet-3.1)规范编写
     </description>
 
+    <distributionManagement>
+        <repository>
+            <id>jaswine-repo</id>
+            <url>file:I:\JaswineRepo\repo</url>
+        </repository>
+    </distributionManagement>
+
+    <build>
+        <finalName>commons-web</finalName>
+    </build>
+
 
     <properties>
 
-        <commons.version>1.0-SNAPSHOT</commons.version>
+        <commons.version>1.0.0</commons.version>
 
     </properties>
 

@@ -1,4 +1,4 @@
-package com.jaswine.enums;
+package com.jaswine.web.net;
 
 
 /**
